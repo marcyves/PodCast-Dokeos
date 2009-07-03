@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1252"?>
+		<rss version="2.0">
+		<channel>
+		<title>Le podCast de Andy</title>
+		<description>Bienvenue sur le PodCast de Andy.</description>
+		<link>http://localhost/main/podcast/rss2html.php</link>
+		<category domain="">Education</category>
+		<copyright>CERAM Sophia Antipolis</copyright>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		<language>fr</language>
+		<lastBuildDate>Fri, 07 Apr 2006 15:00:00 +0100</lastBuildDate>
+		<managingEditor>Learning Lab</managingEditor>
+		<pubDate>Fri, 24 Mar 2006 15:00:00 +0100</pubDate>
+		<skipDays>
+		<day>Sunday</day>
+		<day>Monday</day>
+		<day>Tuesday</day>
+		<day>Wednesday</day>
+		<day>Thursday</day>
+		<day>Saturday</day>
+		</skipDays>
+		<generator>Learning Lab - CERAM Sophia Antipolis</generator><item>
+			<title>02 - Helicopter.mp3</title>
+			<description>Ceci est la description</description>
+			<link>http://localhost/courses/COURSDETEST/podcast/4901cd9b3d09302_-_Helicopter.mp3</link>
+			<author>Andy Martel</author>
+			<enclosure url="http://localhost/courses/COURSDETEST/podcast/4901cd9b3d09302_-_Helicopter.mp3" type="audio/mpeg"></enclosure>
+			      <pubDate>Fri, 24 Mar 2006 12:06:25 +0100</pubDate>
+			</item><item>
+			<title>Helicopter de Bloc party</title>
+			<description>Voici une description un peu plus complète histoire de voir comment le tout se formate.</description>
+			<link>http://localhost/courses/COURSDETEST/podcast/491af9a15b8da02_-_Helicopter.mp3</link>
+			<author>Andy Martel</author>
+			<enclosure url="http://localhost/courses/COURSDETEST/podcast/491af9a15b8da02_-_Helicopter.mp3" type="audio/mpeg"></enclosure>
+			      <pubDate>Fri, 24 Mar 2006 12:06:25 +0100</pubDate>
+			</item></channel></rss>

@@ -1,0 +1,30 @@
+INSERT INTO $dokeos_course (name, 
+			    link,
+			    image, 
+			    visibility, 
+			    admin, 
+			    address, 
+	      	      	    added_tool, 
+			    target, 
+			    category)
+
+VALUES (		    'podcast', 
+			    'podcast/podcast.php', 
+			    'podcast.gif', 
+			     1, 
+			     0, 
+			    'squaregrey.gif', 
+			     0, 
+			    '_self', 
+			    'interaction');
+
+CREATE TABLE $dokeos_podcast (id int(10) NOT NULL PRIMARY KEY AUTO_INCREMENT, 
+			      url varchar(200), 
+			      title varchar(200), 			      
+			      description varchar(250), 
+			      author varchar(200), 
+			      active tinyint(4), 
+			      accepted tinyint(4), 
+			      post_group_id int(11), 			      
+			      sent_date datetime, 
+			      filetype set('file','folder'));
